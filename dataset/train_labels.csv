@@ -1,269 +1,269 @@
 project_id,tag,subtags
+1150ac69e096,Gnosis safe,[]
 1150ac69e096,call / delegatecall,[]
-1150ac69e096,Arithmetic,"['Block Time / Block Number', 'Hardcoded Parameter']"
-1150ac69e096,Uniswap,"['Hardcoded Parameter', 'slot0']"
 1150ac69e096,EIP712,['Nonce']
-1150ac69e096,DoS,"['Arbitrary Add/Remove/Set/Call', 'Hardcoded Parameter', 'Nonce']"
-1150ac69e096,Governance,"['Arbitrary Add/Remove/Set/Call', 'Nonce']"
 1150ac69e096,Access Control,['Arbitrary Add/Remove/Set/Call']
+1150ac69e096,DoS,"['Arbitrary Add/Remove/Set/Call', 'Hardcoded Parameter', 'Nonce']"
+1150ac69e096,Slippage,['Hardcoded Parameter']
 1150ac69e096,Solidity Version,[]
 1150ac69e096,ERC721,[]
-1150ac69e096,Gnosis safe,[]
-1150ac69e096,Slippage,['Hardcoded Parameter']
-1aee004bafff,Uniswap,['Hardcoded Parameter']
-1aee004bafff,DoS,"['Arbitrary Add/Remove/Set/Call', 'Front Run', 'Hardcoded Parameter', 'Missing Initialization']"
-1aee004bafff,Access Control,"['Arbitrary Add/Remove/Set/Call', 'Asset Theft', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
-1aee004bafff,ERC777,[]
-1aee004bafff,Compound,[]
-1aee004bafff,DAO,[]
-1aee004bafff,Chainlink,['Front Run']
-1aee004bafff,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Missing Initialization']"
-1aee004bafff,Governance,"['Arbitrary Add/Remove/Set/Call', 'Bypass Mechanism', 'Front Run']"
-1aee004bafff,Upgradeable,['Missing Initialization']
+1150ac69e096,Arithmetic,"['Block Time / Block Number', 'Hardcoded Parameter']"
+1150ac69e096,Uniswap,"['Hardcoded Parameter', 'slot0']"
+1150ac69e096,Governance,"['Arbitrary Add/Remove/Set/Call', 'Nonce']"
+1aee004bafff,Slippage,['Hardcoded Parameter']
+1aee004bafff,Oracle,"['Bypass Mechanism', 'Hardcoded Parameter']"
 1aee004bafff,Pause,['Front Run']
+1aee004bafff,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Missing Initialization']"
+1aee004bafff,MEV,"['Asset Theft', 'Bypass Mechanism', 'Front Run']"
+1aee004bafff,ERC777,[]
 1aee004bafff,call / delegatecall,[]
+1aee004bafff,Compound,[]
+1aee004bafff,ERC20,"['Asset Theft', 'Bypass Mechanism']"
+1aee004bafff,Access Control,"['Arbitrary Add/Remove/Set/Call', 'Asset Theft', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
+1aee004bafff,DAO,[]
+1aee004bafff,Upgradeable,['Missing Initialization']
+1aee004bafff,Cross-Chain,"['Asset Theft', 'Bypass Mechanism', 'Missing Initialization']"
+1aee004bafff,Governance,"['Arbitrary Add/Remove/Set/Call', 'Bypass Mechanism', 'Front Run']"
+1aee004bafff,Chainlink,['Front Run']
 1aee004bafff,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter']"
 1aee004bafff,Reentrancy,"['Asset Theft', 'Bypass Mechanism']"
-1aee004bafff,MEV,"['Asset Theft', 'Bypass Mechanism', 'Front Run']"
+1aee004bafff,DoS,"['Arbitrary Add/Remove/Set/Call', 'Front Run', 'Hardcoded Parameter', 'Missing Initialization']"
 1aee004bafff,Bridge,[]
-1aee004bafff,Cross-Chain,"['Asset Theft', 'Bypass Mechanism', 'Missing Initialization']"
-1aee004bafff,ERC20,"['Asset Theft', 'Bypass Mechanism']"
-1aee004bafff,Oracle,"['Bypass Mechanism', 'Hardcoded Parameter']"
-1aee004bafff,Slippage,['Hardcoded Parameter']
+1aee004bafff,Uniswap,['Hardcoded Parameter']
+1be7a2863fe1,TWAP,['slot0']
+1be7a2863fe1,Liquidation,['Bypass Mechanism']
 1be7a2863fe1,call / delegatecall,[]
-1be7a2863fe1,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
-1be7a2863fe1,Uniswap,['slot0']
-1be7a2863fe1,Oracle,['Bypass Mechanism']
-1be7a2863fe1,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Missing Initialization']"
+1be7a2863fe1,Compound,[]
+1be7a2863fe1,Solmate,[]
 1be7a2863fe1,Reentrancy,"['Asset Theft', 'Bypass Mechanism']"
-1be7a2863fe1,Solidity Version,[]
+1be7a2863fe1,ERC20,"['Asset Theft', 'Bypass Mechanism', 'safeApprove']"
 1be7a2863fe1,Upgradeable,"['Centralization Risk', 'Missing Initialization']"
 1be7a2863fe1,Opensea,['Asset Theft']
-1be7a2863fe1,ERC721,['Asset Theft']
-1be7a2863fe1,TWAP,['slot0']
-1be7a2863fe1,ERC20,"['Asset Theft', 'Bypass Mechanism', 'safeApprove']"
-1be7a2863fe1,Solmate,[]
-1be7a2863fe1,Liquidation,['Bypass Mechanism']
-1be7a2863fe1,Compound,[]
+1be7a2863fe1,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Missing Initialization']"
 1be7a2863fe1,Slippage,[]
-22ad8fd6e044,call / delegatecall,[]
-22ad8fd6e044,Arithmetic,['Block Time / Block Number']
-22ad8fd6e044,DoS,['Nonce']
-22ad8fd6e044,Governance,['Nonce']
-22ad8fd6e044,Access Control,[]
-22ad8fd6e044,Reentrancy,[]
-22ad8fd6e044,Solidity Version,[]
-22ad8fd6e044,Opensea,[]
-22ad8fd6e044,ERC721,[]
+1be7a2863fe1,Oracle,['Bypass Mechanism']
+1be7a2863fe1,Solidity Version,[]
+1be7a2863fe1,ERC721,['Asset Theft']
+1be7a2863fe1,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
+1be7a2863fe1,Uniswap,['slot0']
 22ad8fd6e044,Logic error,[]
-22ad8fd6e044,MEV,[]
-22ad8fd6e044,ERC20,[]
-22ad8fd6e044,Pause,[]
-22ad8fd6e044,Oracle,[]
 22ad8fd6e044,DAO,[]
-289d8258d7b3,Uniswap,"['Price Manipulation / Arbitrage opportunity', 'slot0']"
-289d8258d7b3,DoS,"['Deprecated Library', 'Fee On Transfer Token', 'Front Run', 'Invalid Validation', 'Missing Initialization', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Typo', 'onERC721Received callback', 'payable / receive()']"
-289d8258d7b3,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Fee On Transfer Token', 'Front Run', 'Invalid Validation', 'Missing Initialization', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
-289d8258d7b3,Accounting Error,"['Fee On Transfer Token', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Rebase Token']"
-289d8258d7b3,TWAP,"['Price Manipulation / Arbitrage opportunity', 'slot0']"
-289d8258d7b3,Compound,[]
-289d8258d7b3,Chainlink,"['Deprecated Library', 'Front Run', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Unsafe Downcast']"
-289d8258d7b3,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Invalid Validation', 'Missing Initialization', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Unsafe Downcast']"
-289d8258d7b3,Governance,"['Bypass Mechanism', 'Front Run', 'Invalid Validation']"
-289d8258d7b3,Upgradeable,"['Centralization Risk', 'Invalid Validation', 'Missing Initialization']"
-289d8258d7b3,call / delegatecall,[]
-289d8258d7b3,Flashloan,"['Asset Theft', 'Bypass Mechanism', 'Price Manipulation / Arbitrage opportunity', 'slot0']"
-289d8258d7b3,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Stale Value']"
-289d8258d7b3,Solidity Version,[]
-289d8258d7b3,Reentrancy,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation', 'Violating CEI / Missing nonReentrant', 'onERC721Received callback']"
-289d8258d7b3,ERC721,"['Asset Theft', 'Invalid Validation', 'onERC721Received callback']"
-289d8258d7b3,MEV,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Price Manipulation / Arbitrage opportunity']"
-289d8258d7b3,Liquidation,"['Bypass Mechanism', 'Invalid Validation', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
-289d8258d7b3,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Fee On Transfer Token', 'Invalid Validation', 'Rebase Token', 'safeApprove']"
+22ad8fd6e044,call / delegatecall,[]
+22ad8fd6e044,Reentrancy,[]
+22ad8fd6e044,ERC20,[]
+22ad8fd6e044,Opensea,[]
+22ad8fd6e044,Access Control,[]
+22ad8fd6e044,DoS,['Nonce']
+22ad8fd6e044,Oracle,[]
+22ad8fd6e044,Solidity Version,[]
+22ad8fd6e044,ERC721,[]
+22ad8fd6e044,Pause,[]
+22ad8fd6e044,Arithmetic,['Block Time / Block Number']
+22ad8fd6e044,Governance,['Nonce']
+22ad8fd6e044,MEV,[]
+289d8258d7b3,Slippage,"['Fee On Transfer Token', 'Hardcoded Parameter']"
 289d8258d7b3,Oracle,"['Bypass Mechanism', 'Hardcoded Parameter', 'Invalid Validation', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Unsafe Downcast']"
-289d8258d7b3,Slippage,['Fee On Transfer Token']
-289d8258d7b3,ERC1155,[]
-289d8258d7b3,ERC777,[]
-289d8258d7b3,Pause,[]
-289d8258d7b3,ERC4626,[]
-289d8258d7b3,EIP712,[]
+289d8258d7b3,Solidity Version,[]
+289d8258d7b3,ERC721,"['Asset Theft', 'Invalid Validation', 'Violating CEI / Missing nonReentrant', 'onERC721Received callback']"
+289d8258d7b3,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Missing Initialization', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Unsafe Downcast']"
+289d8258d7b3,MEV,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Price Manipulation / Arbitrage opportunity']"
+289d8258d7b3,call / delegatecall,[]
+289d8258d7b3,Compound,[]
+289d8258d7b3,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Fee On Transfer Token', 'Invalid Validation', 'Rebase Token', 'safeApprove']"
+289d8258d7b3,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Fee On Transfer Token', 'Front Run', 'Invalid Validation', 'Missing Initialization', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
+289d8258d7b3,TWAP,"['Price Manipulation / Arbitrage opportunity', 'slot0']"
+289d8258d7b3,Upgradeable,"['Centralization Risk', 'Invalid Validation', 'Missing Initialization']"
+289d8258d7b3,Flashloan,"['Asset Theft', 'Bypass Mechanism', 'Price Manipulation / Arbitrage opportunity', 'slot0']"
+289d8258d7b3,Accounting Error,"['Asset Theft', 'Fee On Transfer Token', 'Invalid Validation', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity', 'Rebase Token', 'payable / receive()']"
+289d8258d7b3,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation']"
+289d8258d7b3,Liquidation,"['Bypass Mechanism', 'Invalid Validation', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
+289d8258d7b3,Chainlink,"['Deprecated Library', 'Front Run', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Unsafe Downcast']"
+289d8258d7b3,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity', 'Stale Value']"
+289d8258d7b3,Reentrancy,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation', 'Violating CEI / Missing nonReentrant', 'onERC721Received callback']"
+289d8258d7b3,DoS,"['Deprecated Library', 'Fee On Transfer Token', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Missing Initialization', 'Out of Gas', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity', 'Stale Value', 'Typo', 'onERC721Received callback', 'payable / receive()']"
+289d8258d7b3,Uniswap,"['Hardcoded Parameter', 'Price Manipulation / Arbitrage opportunity', 'slot0']"
+289d8258d7b3,ERC777,['Violating CEI / Missing nonReentrant']
+289d8258d7b3,ERC1155,"['Asset Theft', 'Invalid Validation', 'Violating CEI / Missing nonReentrant']"
+289d8258d7b3,Pause,"['Centralization Risk', 'Front Run', 'Invalid Validation']"
 289d8258d7b3,Opensea,"['Asset Theft', 'Invalid Validation']"
-2b7ce0d78309,Arithmetic,"['Block Time / Block Number', 'Invalid Validation', 'Stale Value']"
-2b7ce0d78309,Governance,['Invalid Validation']
-2b7ce0d78309,Bridge,['Invalid Validation']
-2b7ce0d78309,Access Control,"['Invalid Validation', 'No Recovery Mechanism']"
-2b7ce0d78309,Reentrancy,['Invalid Validation']
-2b7ce0d78309,Solidity Version,[]
-2b7ce0d78309,Upgradeable,"['Invalid Validation', 'No Recovery Mechanism']"
-2b7ce0d78309,Input Validation,"['Invalid Validation', 'No Recovery Mechanism', 'Stale Value']"
-2b7ce0d78309,Cross-Chain,"['Invalid Validation', 'No Recovery Mechanism']"
+289d8258d7b3,EIP712,[]
+289d8258d7b3,ERC4626,[]
 2b7ce0d78309,ERC777,[]
 2b7ce0d78309,Replay Attack,['Invalid Validation']
-2b7ce0d78309,ERC721,['Invalid Validation']
-2b7ce0d78309,ERC20,"['Invalid Validation', 'No Recovery Mechanism']"
-2b7ce0d78309,Pause,"['Invalid Validation', 'No Recovery Mechanism']"
-2b7ce0d78309,Oracle,"['Invalid Validation', 'Stale Value']"
 2b7ce0d78309,Compound,[]
+2b7ce0d78309,Input Validation,"['Invalid Validation', 'No Recovery Mechanism', 'Stale Value']"
+2b7ce0d78309,Reentrancy,['Invalid Validation']
+2b7ce0d78309,ERC20,"['Invalid Validation', 'No Recovery Mechanism']"
+2b7ce0d78309,Upgradeable,"['Invalid Validation', 'No Recovery Mechanism']"
+2b7ce0d78309,Cross-Chain,"['Invalid Validation', 'No Recovery Mechanism']"
+2b7ce0d78309,Access Control,"['Invalid Validation', 'No Recovery Mechanism']"
+2b7ce0d78309,Bridge,['Invalid Validation']
+2b7ce0d78309,Oracle,"['Invalid Validation', 'Stale Value']"
+2b7ce0d78309,Solidity Version,[]
+2b7ce0d78309,ERC721,['Invalid Validation']
+2b7ce0d78309,Pause,"['Invalid Validation', 'No Recovery Mechanism']"
+2b7ce0d78309,Arithmetic,"['Block Time / Block Number', 'Invalid Validation', 'Stale Value']"
 2b7ce0d78309,Chainlink,"['Invalid Validation', 'Stale Value']"
-2c2d03025183,Arithmetic,[]
+2b7ce0d78309,Governance,['Invalid Validation']
 2c2d03025183,call / delegatecall,[]
-2c2d03025183,Governance,['Nonce']
-2c2d03025183,Bridge,['Nonce']
-2c2d03025183,Access Control,[]
-2c2d03025183,Upgradeable,[]
 2c2d03025183,Cross-Chain,[]
+2c2d03025183,Upgradeable,[]
+2c2d03025183,Access Control,[]
+2c2d03025183,Bridge,['Nonce']
+2c2d03025183,Arithmetic,[]
+2c2d03025183,Governance,['Nonce']
 3a8408b6f3d4,DAO,[]
-4561d049a9da,Liquidation,[]
 4561d049a9da,Access Control,[]
-57feee7d5701,call / delegatecall,[]
-57feee7d5701,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
-57feee7d5701,Uniswap,[]
-57feee7d5701,DoS,"['Fee On Transfer Token', 'Front Run', 'Missing Initialization', 'Out of Gas', 'Typo', 'payable / receive()']"
-57feee7d5701,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run']"
-57feee7d5701,Flashloan,"['Asset Theft', 'Bypass Mechanism']"
-57feee7d5701,Pause,"['Centralization Risk', 'Front Run']"
-57feee7d5701,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Fee On Transfer Token', 'Front Run', 'Missing Initialization', 'Out of Gas']"
-57feee7d5701,Accounting Error,"['Asset Theft', 'Fee On Transfer Token', 'payable / receive()']"
-57feee7d5701,Solidity Version,[]
-57feee7d5701,Upgradeable,"['Centralization Risk', 'Missing Initialization']"
-57feee7d5701,Opensea,['Asset Theft']
-57feee7d5701,ERC721,['Asset Theft']
-57feee7d5701,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Fee On Transfer Token']"
+4561d049a9da,Liquidation,[]
 57feee7d5701,Liquidation,"['Bypass Mechanism', 'Out of Gas']"
-57feee7d5701,Oracle,['Bypass Mechanism']
-57feee7d5701,Chainlink,['Front Run']
+57feee7d5701,Pause,"['Centralization Risk', 'Front Run']"
 57feee7d5701,DAO,['Centralization Risk']
+57feee7d5701,call / delegatecall,[]
+57feee7d5701,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Fee On Transfer Token']"
+57feee7d5701,Upgradeable,"['Centralization Risk', 'Missing Initialization']"
+57feee7d5701,Uniswap,[]
+57feee7d5701,Opensea,['Asset Theft']
+57feee7d5701,DoS,"['Fee On Transfer Token', 'Front Run', 'Missing Initialization', 'Out of Gas', 'Typo', 'payable / receive()']"
+57feee7d5701,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Fee On Transfer Token', 'Front Run', 'Missing Initialization', 'Out of Gas']"
+57feee7d5701,Oracle,['Bypass Mechanism']
+57feee7d5701,Solidity Version,[]
+57feee7d5701,Flashloan,"['Asset Theft', 'Bypass Mechanism']"
+57feee7d5701,ERC721,['Asset Theft']
+57feee7d5701,Accounting Error,"['Asset Theft', 'Fee On Transfer Token', 'payable / receive()']"
+57feee7d5701,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Missing Initialization']"
+57feee7d5701,Chainlink,['Front Run']
+57feee7d5701,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run']"
 5e41ded6a8cd,Arithmetic,"['Block Time / Block Number', 'Front Run']"
-5e41ded6a8cd,call / delegatecall,[]
-5e41ded6a8cd,Zksync,[]
 5e41ded6a8cd,EIP712,['Nonce']
-70080e8fc005,Upgradeable,[]
+5e41ded6a8cd,Zksync,[]
+5e41ded6a8cd,call / delegatecall,[]
 70080e8fc005,DoS,[]
 70080e8fc005,Zksync,[]
+70080e8fc005,Upgradeable,[]
 794c62261b8d,Governance,[]
-82a1b82850c4,Arithmetic,[]
+82a1b82850c4,DAO,['Centralization Risk']
 82a1b82850c4,call / delegatecall,[]
-82a1b82850c4,Governance,['Centralization Risk']
+82a1b82850c4,Compound,[]
 82a1b82850c4,Reentrancy,[]
 82a1b82850c4,ERC20,[]
-82a1b82850c4,Solmate,[]
-82a1b82850c4,Compound,[]
-82a1b82850c4,DAO,['Centralization Risk']
 82a1b82850c4,Zksync,[]
-9e1a7f778757,Governance,['Front Run']
+82a1b82850c4,Arithmetic,[]
+82a1b82850c4,Solmate,[]
+82a1b82850c4,Governance,['Centralization Risk']
 9e1a7f778757,Arithmetic,"['Front Run', 'Precision Loss', 'Scaling']"
-9e1a7f778757,ERC721,[]
 9e1a7f778757,ERC20,[]
+9e1a7f778757,Governance,['Front Run']
+9e1a7f778757,ERC721,[]
 a8a9998bfe4a,Liquidation,[]
 a8a9998bfe4a,ERC20,[]
-b0b4fa38c58e,ERC721,[]
 b0b4fa38c58e,Solmate,[]
 b0b4fa38c58e,Reentrancy,[]
 b0b4fa38c58e,ERC20,[]
+b0b4fa38c58e,ERC721,[]
 b2ae5242870b,call / delegatecall,[]
-b2ae5242870b,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Missing Initialization', 'Unsafe Downcast']"
+b2ae5242870b,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Incorrect Parameter', 'Invalid Validation', 'Nonce', 'Precision Loss']"
 b2ae5242870b,EIP712,['Nonce']
-b2ae5242870b,DoS,"['Hardcoded Parameter', 'Invalid Validation', 'Missing Initialization', 'Out of Gas', 'Typo', 'payable / receive()']"
-b2ae5242870b,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation', 'Missing Initialization']"
-b2ae5242870b,Input Validation,"['Hardcoded Parameter', 'Invalid Validation']"
-b2ae5242870b,Solidity Version,[]
 b2ae5242870b,Upgradeable,"['Centralization Risk', 'Invalid Validation', 'Missing Initialization']"
-b2ae5242870b,ERC20,"['Asset Theft', 'Bypass Mechanism']"
-b2ae5242870b,Reentrancy,"['Asset Theft', 'Bypass Mechanism']"
-b2ae5242870b,Opensea,['Asset Theft']
-b2ae5242870b,Replay Attack,"['Asset Theft', 'Nonce']"
+b2ae5242870b,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Incorrect Parameter', 'Invalid Validation', 'Missing Initialization', 'Out of Gas']"
+b2ae5242870b,DoS,"['Front Run', 'Hardcoded Parameter', 'Incorrect Parameter', 'Invalid Validation', 'Missing Initialization', 'Nonce', 'Out of Gas', 'Precision Loss', 'Typo', 'payable / receive()']"
+b2ae5242870b,Solidity Version,[]
+b2ae5242870b,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Incorrect Parameter', 'Invalid Validation', 'Missing Initialization', 'Precision Loss', 'Rounding Error', 'Unsafe Downcast']"
+b2ae5242870b,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
+b2ae5242870b,Reentrancy,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
+b2ae5242870b,Opensea,"['Asset Theft', 'Invalid Validation']"
+b2ae5242870b,Replay Attack,"['Asset Theft', 'Invalid Validation', 'Nonce']"
 b2ae5242870b,Cross-Chain,[]
-b2ae5242870b,ERC721,['Asset Theft']
+b2ae5242870b,ERC721,"['Asset Theft', 'Incorrect Parameter', 'Invalid Validation']"
+b78ed0629056,Replay Attack,"['Asset Theft', 'Invalid Validation']"
 b78ed0629056,call / delegatecall,[]
-b78ed0629056,EIP712,[]
-b78ed0629056,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation']"
-b78ed0629056,Bridge,['Invalid Validation']
-b78ed0629056,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation', 'Missing Initialization']"
 b78ed0629056,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Invalid Validation']"
-b78ed0629056,Solidity Version,[]
+b78ed0629056,EIP712,[]
+b78ed0629056,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
 b78ed0629056,Upgradeable,"['Centralization Risk', 'Invalid Validation', 'Missing Initialization']"
 b78ed0629056,Opensea,"['Asset Theft', 'Invalid Validation']"
-b78ed0629056,Zksync,[]
-b78ed0629056,Replay Attack,"['Asset Theft', 'Invalid Validation']"
-b78ed0629056,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
-b78ed0629056,Pause,"['Centralization Risk', 'Front Run', 'Invalid Validation']"
+b78ed0629056,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation', 'Missing Initialization']"
 b78ed0629056,Slippage,[]
+b78ed0629056,Bridge,['Invalid Validation']
+b78ed0629056,Solidity Version,[]
+b78ed0629056,Zksync,[]
+b78ed0629056,Pause,"['Centralization Risk', 'Front Run', 'Invalid Validation']"
+b78ed0629056,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Invalid Validation']"
+b7a4028d825e,Pause,['Front Run']
+b7a4028d825e,Compound,[]
+b7a4028d825e,Reentrancy,"['Bypass Mechanism', 'Violating CEI / Missing nonReentrant']"
+b7a4028d825e,ERC20,"['Bypass Mechanism', 'Implementation Error']"
+b7a4028d825e,Upgradeable,"['Implementation Error', 'Missing Initialization']"
+b7a4028d825e,Access Control,"['Bypass Mechanism', 'Front Run', 'Implementation Error', 'Missing Initialization']"
+b7a4028d825e,Slippage,[]
+b7a4028d825e,Solidity Version,[]
+b7a4028d825e,Flashloan,['Bypass Mechanism']
+b7a4028d825e,ERC1155,['Violating CEI / Missing nonReentrant']
+b7a4028d825e,Zksync,['payable / receive()']
+b7a4028d825e,ERC721,['Violating CEI / Missing nonReentrant']
 b7a4028d825e,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Implementation Error', 'Missing Initialization', 'Precision Loss', 'Unsafe Downcast']"
 b7a4028d825e,Uniswap,['Implementation Error']
 b7a4028d825e,Governance,"['Bypass Mechanism', 'Front Run', 'Implementation Error']"
-b7a4028d825e,Flashloan,['Bypass Mechanism']
-b7a4028d825e,Access Control,"['Bypass Mechanism', 'Front Run', 'Implementation Error', 'Missing Initialization']"
-b7a4028d825e,Reentrancy,"['Bypass Mechanism', 'Violating CEI / Missing nonReentrant']"
-b7a4028d825e,Solidity Version,[]
-b7a4028d825e,Upgradeable,"['Implementation Error', 'Missing Initialization']"
-b7a4028d825e,ERC721,['Violating CEI / Missing nonReentrant']
-b7a4028d825e,Zksync,['payable / receive()']
-b7a4028d825e,ERC1155,['Violating CEI / Missing nonReentrant']
-b7a4028d825e,ERC20,"['Bypass Mechanism', 'Implementation Error']"
-b7a4028d825e,Pause,['Front Run']
-b7a4028d825e,Compound,[]
-b7a4028d825e,Slippage,[]
 bb9c2df58c59,call / delegatecall,[]
-bb9c2df58c59,Bridge,[]
-bb9c2df58c59,Upgradeable,['Diamond']
-bb9c2df58c59,ERC721,[]
 bb9c2df58c59,ERC20,[]
+bb9c2df58c59,Upgradeable,['Diamond']
+bb9c2df58c59,Bridge,[]
 bb9c2df58c59,Zksync,[]
-dc783f2b0ddc,ERC4626,"['Missing minOut / maxAmount', 'Price Manipulation / Arbitrage opportunity']"
-dc783f2b0ddc,Uniswap,"['Hardcoded Parameter', 'Price Manipulation / Arbitrage opportunity']"
-dc783f2b0ddc,EIP712,['Nonce']
-dc783f2b0ddc,DoS,"['Fee On Transfer Token', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Missing minOut / maxAmount', 'Nonce', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity', 'Token Decimal', 'Typo', 'payable / receive()']"
-dc783f2b0ddc,Access Control,"['Bypass Mechanism', 'Fee On Transfer Token', 'Front Run', 'Invalid Validation', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
-dc783f2b0ddc,Accounting Error,"['Fee On Transfer Token', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Rebase Token', 'payable / receive()']"
-dc783f2b0ddc,Re-org Attack,[]
-dc783f2b0ddc,Chainlink,"['Front Run', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Unsafe Downcast']"
-dc783f2b0ddc,DAO,['Invalid Validation']
-dc783f2b0ddc,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Token Decimal', 'Unsafe Downcast']"
-dc783f2b0ddc,Governance,"['Bypass Mechanism', 'Front Run', 'Invalid Validation', 'Nonce']"
-dc783f2b0ddc,ERC1155,"['Invalid Validation', 'Violating CEI / Missing nonReentrant']"
-dc783f2b0ddc,Pause,"['Front Run', 'Invalid Validation']"
-dc783f2b0ddc,call / delegatecall,[]
-dc783f2b0ddc,Input Validation,"['Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Nonce', 'Price Manipulation / Arbitrage opportunity']"
-dc783f2b0ddc,Reentrancy,"['Bypass Mechanism', 'Invalid Validation', 'Violating CEI / Missing nonReentrant']"
+bb9c2df58c59,ERC721,[]
+dc783f2b0ddc,Slippage,"['Fee On Transfer Token', 'Hardcoded Parameter', 'Missing minOut / maxAmount']"
 dc783f2b0ddc,Solidity Version,[]
 dc783f2b0ddc,ERC721,"['Invalid Validation', 'Violating CEI / Missing nonReentrant']"
-dc783f2b0ddc,Opensea,['Invalid Validation']
-dc783f2b0ddc,Cross-Chain,"['Bypass Mechanism', 'Invalid Validation', 'Rebase Token', 'Token Decimal']"
+dc783f2b0ddc,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Token Decimal', 'Unsafe Downcast']"
+dc783f2b0ddc,Pause,"['Front Run', 'Invalid Validation']"
+dc783f2b0ddc,call / delegatecall,[]
 dc783f2b0ddc,ERC20,"['Bypass Mechanism', 'Fee On Transfer Token', 'Invalid Validation', 'Rebase Token', 'safeApprove']"
-dc783f2b0ddc,Slippage,"['Fee On Transfer Token', 'Hardcoded Parameter', 'Missing minOut / maxAmount']"
+dc783f2b0ddc,Access Control,"['Bypass Mechanism', 'Fee On Transfer Token', 'Front Run', 'Invalid Validation', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity']"
+dc783f2b0ddc,DAO,['Invalid Validation']
+dc783f2b0ddc,Cross-Chain,"['Bypass Mechanism', 'Invalid Validation', 'Rebase Token', 'Token Decimal']"
+dc783f2b0ddc,Opensea,['Invalid Validation']
+dc783f2b0ddc,ERC1155,"['Invalid Validation', 'Violating CEI / Missing nonReentrant']"
+dc783f2b0ddc,Accounting Error,"['Fee On Transfer Token', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Rebase Token', 'payable / receive()']"
+dc783f2b0ddc,Governance,"['Bypass Mechanism', 'Front Run', 'Invalid Validation', 'Nonce']"
+dc783f2b0ddc,Re-org Attack,[]
+dc783f2b0ddc,Chainlink,"['Front Run', 'Invalid Validation', 'Price Manipulation / Arbitrage opportunity', 'Unsafe Downcast']"
+dc783f2b0ddc,Input Validation,"['Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Nonce', 'Price Manipulation / Arbitrage opportunity']"
+dc783f2b0ddc,Reentrancy,"['Bypass Mechanism', 'Invalid Validation', 'Violating CEI / Missing nonReentrant']"
+dc783f2b0ddc,EIP712,['Nonce']
+dc783f2b0ddc,ERC4626,"['Missing minOut / maxAmount', 'Price Manipulation / Arbitrage opportunity']"
+dc783f2b0ddc,DoS,"['Fee On Transfer Token', 'Front Run', 'Hardcoded Parameter', 'Invalid Validation', 'Missing minOut / maxAmount', 'Nonce', 'Out of Gas', 'Price Manipulation / Arbitrage opportunity', 'Token Decimal', 'Typo', 'payable / receive()']"
+dc783f2b0ddc,Uniswap,"['Hardcoded Parameter', 'Price Manipulation / Arbitrage opportunity']"
 e269b2c934ee,ERC1155,[]
-e269b2c934ee,call / delegatecall,[]
 e269b2c934ee,Uniswap,[]
-e5f8a519b24f,Governance,[]
+e269b2c934ee,call / delegatecall,[]
 e5f8a519b24f,DAO,[]
-e68d196f2fbd,ERC20,[]
+e5f8a519b24f,Governance,[]
 e68d196f2fbd,Arithmetic,"['Front Run', 'Precision Loss', 'Price Manipulation / Arbitrage opportunity']"
+e68d196f2fbd,ERC20,[]
 e68d196f2fbd,Slippage,[]
-ec394ead8172,Governance,['Nonce']
-ec394ead8172,Bridge,['Nonce']
 ec394ead8172,Arithmetic,[]
-f4d8a18e633f,Arithmetic,['Block Time / Block Number']
-f4d8a18e633f,Governance,[]
-f4d8a18e633f,ERC721,[]
-f4d8a18e633f,ERC20,[]
-f4d8a18e633f,Solmate,[]
+ec394ead8172,Bridge,['Nonce']
+ec394ead8172,Governance,['Nonce']
 f4d8a18e633f,Compound,[]
+f4d8a18e633f,ERC20,[]
 f4d8a18e633f,Slippage,[]
-fccd852beaa3,call / delegatecall,[]
-fccd852beaa3,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Invalid Validation', 'Scaling']"
-fccd852beaa3,EIP712,['Nonce']
-fccd852beaa3,DoS,"['Front Run', 'Invalid Validation', 'Nonce', 'Out of Gas', 'Typo']"
-fccd852beaa3,Governance,"['Bypass Mechanism', 'Invalid Validation']"
-fccd852beaa3,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Implementation Error', 'Invalid Validation', 'Missing Initialization', 'Out of Gas']"
-fccd852beaa3,Input Validation,"['Bypass Mechanism', 'Invalid Validation', 'Nonce']"
-fccd852beaa3,Reentrancy,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
-fccd852beaa3,Upgradeable,"['Centralization Risk', 'Invalid Validation', 'Missing Initialization']"
-fccd852beaa3,ERC721,"['Asset Theft', 'Invalid Validation', 'onERC721Received callback']"
-fccd852beaa3,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation']"
+f4d8a18e633f,ERC721,[]
+f4d8a18e633f,Arithmetic,['Block Time / Block Number']
+f4d8a18e633f,Solmate,[]
+f4d8a18e633f,Governance,[]
 fccd852beaa3,ERC777,[]
-fccd852beaa3,Opensea,['Asset Theft']
-fccd852beaa3,ERC1155,['Asset Theft']
-fccd852beaa3,Logic error,"['Bypass Mechanism', 'Front Run']"
+fccd852beaa3,call / delegatecall,[]
+fccd852beaa3,Input Validation,"['Asset Theft', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Implementation Error', 'Invalid Validation', 'Nonce', 'Precision Loss']"
+fccd852beaa3,Reentrancy,"['Asset Theft', 'Bypass Mechanism', 'Invalid Validation', 'onERC721Received callback']"
+fccd852beaa3,EIP712,['Nonce']
+fccd852beaa3,ERC20,"['Asset Theft', 'Bypass Mechanism', 'Implementation Error', 'Invalid Validation']"
+fccd852beaa3,Upgradeable,"['Centralization Risk', 'Diamond', 'Implementation Error', 'Invalid Validation', 'Missing Initialization', 'Storage Gap']"
+fccd852beaa3,DoS,"['Front Run', 'Hardcoded Parameter', 'Implementation Error', 'Invalid Validation', 'Missing Initialization', 'Nonce', 'Out of Gas', 'Precision Loss', 'Typo', 'onERC721Received callback']"
+fccd852beaa3,Access Control,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Implementation Error', 'Invalid Validation', 'Missing Initialization', 'Out of Gas']"
+fccd852beaa3,ERC721,"['Asset Theft', 'Invalid Validation', 'onERC721Received callback']"
+fccd852beaa3,Arithmetic,"['Block Time / Block Number', 'Bypass Mechanism', 'Front Run', 'Hardcoded Parameter', 'Implementation Error', 'Invalid Validation', 'Missing Initialization', 'Precision Loss', 'Rounding Error', 'Scaling']"
+fccd852beaa3,Governance,"['Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Implementation Error', 'Invalid Validation']"
+fccd852beaa3,Opensea,"['Asset Theft', 'Invalid Validation']"
+fccd852beaa3,ERC1155,"['Asset Theft', 'Invalid Validation']"
+fccd852beaa3,Logic error,"['Asset Theft', 'Bypass Mechanism', 'Centralization Risk', 'Front Run', 'Implementation Error', 'Invalid Validation', 'Out of Gas']"
 fccd852beaa3,Solidity Version,[]
 fccd852beaa3,Compound,[]
 fccd852beaa3,Gnosis safe,['Bypass Mechanism']

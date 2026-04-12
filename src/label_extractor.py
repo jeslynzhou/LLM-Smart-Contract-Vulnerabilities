@@ -14,6 +14,7 @@ Main entry point:
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -40,6 +41,8 @@ _MD_GLOBS  = [
     "4naly3er-report.md",
     "slither/**/*.md",
 ]
+
+_JSON_GLOBS = ["bot-report.json"]
 
 
 _SKIP_DIRS  = {"lib", "node_modules", "__MACOSX", ".git", "ISSUE_TEMPLATE"}
@@ -75,12 +78,28 @@ def _extract_md(path: Path) -> str:
         return ""
 
 
+def _extract_bot_json(path: Path) -> str:
+    """Extract title + description from each finding in bot-report.json."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+        findings = data.get("findings", [])
+        parts = []
+        for f in findings:
+            title = f.get("title", "")
+            desc  = f.get("description", "")
+            parts.append(f"{title}\n{desc}")
+        return "\n\n".join(parts)
+    except Exception as e:
+        print(f"[warn] Could not parse {path.name}: {e}")
+        return ""
+
+
 def _collect_audit_files(project_dir: Path) -> list[Path]:
     seen: set[Path] = set()
     results: list[Path] = []
 
-    # PDFs and named markdown files via glob
-    for pattern in _PDF_GLOBS + _MD_GLOBS:
+    # PDFs, named markdown files, and JSON bot reports via glob
+    for pattern in _PDF_GLOBS + _MD_GLOBS + _JSON_GLOBS:
         for p in project_dir.glob(pattern):
             if any(part in _SKIP_DIRS for part in p.parts):
                 continue
@@ -108,6 +127,8 @@ def extract_audit_text(project_dir: Path) -> str:
     for f in _collect_audit_files(project_dir):
         if f.suffix == ".pdf":
             parts.append(_extract_pdf(f))
+        elif f.suffix == ".json":
+            parts.append(_extract_bot_json(f))
         else:
             parts.append(_extract_md(f))
     return "\n\n".join(parts)
